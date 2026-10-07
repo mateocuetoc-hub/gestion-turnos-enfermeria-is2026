@@ -55,15 +55,15 @@ public final class PrototipoPanel extends JPanel {
 
         JPanel options = new JPanel(new GridLayout(1, 3, 20, 0));
         options.setOpaque(false);
-        options.add(opcion("01", "Personal de enfermería", "E-001 · Persona 01",
+        options.add(opcion("01", "Enfermero/a", "E-001 · Persona 01",
                 "Consultar turnos propios", "Comunicar ausencias (por validar)", "Seguir solicitudes",
-                "enfermeria", "Explorar enfermería"));
-        options.add(opcion("02", "Coordinación de turnos", "Coordinación · Área piloto A",
+                "enfermeria", "Enfermero/a"));
+        options.add(opcion("02", "Coordinador/a de turnos", "Coordinación · Área piloto A",
                 "Organizar las asignaciones", "Revisar ausencias y conflictos", "Preparar sustituciones",
-                "coordinacion", "Explorar coordinación"));
-        options.add(opcion("03", "Jefatura del servicio", "Jefatura · Área piloto A",
+                "coordinacion", "Coordinador/a de turnos"));
+        options.add(opcion("03", "Jefe/a del servicio", "Jefatura · Área piloto A",
                 "Consultar cobertura por bloque", "Revisar déficits e incidencias", "Consultar informes del período",
-                "jefatura", "Explorar jefatura"));
+                "jefatura", "Jefe/a del servicio"));
         page.add(options, BorderLayout.CENTER);
         JPanel footer = vertical();
         agregar(footer, texto("ESCENARIO COMPARTIDO", 11, true, SUAVE));
